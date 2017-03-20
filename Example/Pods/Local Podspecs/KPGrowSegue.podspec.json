@@ -1,0 +1,22 @@
+{
+  "name": "KPGrowSegue",
+  "version": "0.1.0",
+  "summary": "A short description of KPGrowSegue.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kunal Pandey/KPGrowSegue",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kunal Pandey": "kunal08.pandey@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Kunal Pandey/KPGrowSegue.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KPGrowSegue/Classes/**/*"
+}

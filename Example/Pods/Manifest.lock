@@ -1,0 +1,16 @@
+PODS:
+  - KPGrowSegue (0.1.0)
+
+DEPENDENCIES:
+  - KPGrowSegue (from `../`)
+
+EXTERNAL SOURCES:
+  KPGrowSegue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KPGrowSegue: 57ff175e4352672eca3e086c060f03ecbf0e2f51
+
+PODFILE CHECKSUM: 277143a01dfd724fe635559ca33e19a833f2af77
+
+COCOAPODS: 1.2.0

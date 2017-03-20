@@ -1,0 +1,6 @@
+framework module KPGrowSegue {
+  umbrella header "KPGrowSegue-umbrella.h"
+
+  export *
+  module * { export * }
+}

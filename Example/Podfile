@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KPGrowSegue_Tests' do
+  pod 'KPGrowSegue', :path => '../'
+  
+  
+end

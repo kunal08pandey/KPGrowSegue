@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6191C6D61E7FF40A00EE1E14 /* KPGrowSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6191C6D51E7FF40A00EE1E14 /* KPGrowSegue.swift */; };
+		74FCC4F910EC76B29CFC696A9546F6F3 /* Pods-KPGrowSegue_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA6C3E2B8ADA9114ADC7EA04C04229 /* Pods-KPGrowSegue_Tests-dummy.m */; };
+		CB85CDABD25024F09526AED6D52EEF34 /* KPGrowSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59FA8BC0F7F2D6162CA9B68C25C329E /* KPGrowSegue-dummy.m */; };
+		CE54682369EC57491B4D70B59733EE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		ED748521F1C2509D9F75FB117896E081 /* KPGrowSegue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 114E8B22EC4955B51E46616F892B0D75 /* KPGrowSegue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28779E831A55F04CD6A34BF01F7B10B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F6BACEB33CF5392921757A9B7499A79A /* Pods-KPGrowSegue_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD572AD94528BDEE0B2961091383359 /* Pods-KPGrowSegue_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C89CAC444665DCDBC8FF8B17BA484F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24757051A910DAB2B58FFAC07245E92D;
+			remoteInfo = KPGrowSegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A042E5F9CBBA164F3337E92A158EDDE /* Pods-KPGrowSegue_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPGrowSegue_Tests-resources.sh"; sourceTree = "<group>"; };
+		0BD572AD94528BDEE0B2961091383359 /* Pods-KPGrowSegue_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KPGrowSegue_Tests-umbrella.h"; sourceTree = "<group>"; };
+		114E8B22EC4955B51E46616F892B0D75 /* KPGrowSegue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPGrowSegue-umbrella.h"; sourceTree = "<group>"; };
+		1F1AD7BC9E752DA20F1B2A6F58629D01 /* KPGrowSegue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KPGrowSegue.modulemap; sourceTree = "<group>"; };
+		3862A22505E58B7E9898D100F2F57720 /* Pods-KPGrowSegue_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KPGrowSegue_Tests.modulemap"; sourceTree = "<group>"; };
+		50AA6C3E2B8ADA9114ADC7EA04C04229 /* Pods-KPGrowSegue_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPGrowSegue_Tests-dummy.m"; sourceTree = "<group>"; };
+		6191C6D51E7FF40A00EE1E14 /* KPGrowSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPGrowSegue.swift; sourceTree = "<group>"; };
+		76F26DF81D1D9425AA1343CC076F5686 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADCA4916A1B7DC65B30810800EC0D237 /* KPGrowSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KPGrowSegue.xcconfig; sourceTree = "<group>"; };
+		B22FADDE0D09DAE616C4425DAFB271C0 /* KPGrowSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KPGrowSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64AB254EC8447985F3A2C8F61DC5EF3 /* Pods_KPGrowSegue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPGrowSegue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6AA45DF29B29EC9B7C9CEE08012ABA /* Pods-KPGrowSegue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPGrowSegue_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C59FA8BC0F7F2D6162CA9B68C25C329E /* KPGrowSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KPGrowSegue-dummy.m"; sourceTree = "<group>"; };
+		C5C7D33BBE7C669B806ED59F826D0689 /* Pods-KPGrowSegue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPGrowSegue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA8171E468A01FDCBD3F8830BD33599 /* Pods-KPGrowSegue_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPGrowSegue_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDD7BEF556391169E2DC4C81133C816A /* KPGrowSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPGrowSegue-prefix.pch"; sourceTree = "<group>"; };
+		D8FD56BAC736B09BD13B4D1CE4883C13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2426F77C19139B5D78411C3FEE649C /* Pods-KPGrowSegue_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPGrowSegue_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF2EA1674EC1ABA4AD5B24EAA217C0E9 /* Pods-KPGrowSegue_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPGrowSegue_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC1CFC514878AB0C1D9C9B50EA8CD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28779E831A55F04CD6A34BF01F7B10B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0161BF3194CE6BAC21DB53A7F41BB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE54682369EC57491B4D70B59733EE05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0002E87BFFFEB0AAAD6F4C604D11BAA3 /* KPGrowSegue */ = {
+			isa = PBXGroup;
+			children = (
+				C9757D95DC34EC46F2454C0B1353FED4 /* KPGrowSegue */,
+				AB696AEB4417C8742792959DBCFF5598 /* Support Files */,
+			);
+			name = KPGrowSegue;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		708EE225DF8B69E1D318A2FE90315847 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0002E87BFFFEB0AAAD6F4C604D11BAA3 /* KPGrowSegue */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				708EE225DF8B69E1D318A2FE90315847 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F99DB1B3AA56F122112F79C75E9CBE69 /* Products */,
+				F16127E2D3BAC845B8125464D64FD1E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFBBF9127BBE075BA7AD34F09306229 /* Pods-KPGrowSegue_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				76F26DF81D1D9425AA1343CC076F5686 /* Info.plist */,
+				3862A22505E58B7E9898D100F2F57720 /* Pods-KPGrowSegue_Tests.modulemap */,
+				CAA8171E468A01FDCBD3F8830BD33599 /* Pods-KPGrowSegue_Tests-acknowledgements.markdown */,
+				DB2426F77C19139B5D78411C3FEE649C /* Pods-KPGrowSegue_Tests-acknowledgements.plist */,
+				50AA6C3E2B8ADA9114ADC7EA04C04229 /* Pods-KPGrowSegue_Tests-dummy.m */,
+				DF2EA1674EC1ABA4AD5B24EAA217C0E9 /* Pods-KPGrowSegue_Tests-frameworks.sh */,
+				0A042E5F9CBBA164F3337E92A158EDDE /* Pods-KPGrowSegue_Tests-resources.sh */,
+				0BD572AD94528BDEE0B2961091383359 /* Pods-KPGrowSegue_Tests-umbrella.h */,
+				C5C7D33BBE7C669B806ED59F826D0689 /* Pods-KPGrowSegue_Tests.debug.xcconfig */,
+				BE6AA45DF29B29EC9B7C9CEE08012ABA /* Pods-KPGrowSegue_Tests.release.xcconfig */,
+			);
+			name = "Pods-KPGrowSegue_Tests";
+			path = "Target Support Files/Pods-KPGrowSegue_Tests";
+			sourceTree = "<group>";
+		};
+		AB696AEB4417C8742792959DBCFF5598 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD56BAC736B09BD13B4D1CE4883C13 /* Info.plist */,
+				1F1AD7BC9E752DA20F1B2A6F58629D01 /* KPGrowSegue.modulemap */,
+				ADCA4916A1B7DC65B30810800EC0D237 /* KPGrowSegue.xcconfig */,
+				C59FA8BC0F7F2D6162CA9B68C25C329E /* KPGrowSegue-dummy.m */,
+				CDD7BEF556391169E2DC4C81133C816A /* KPGrowSegue-prefix.pch */,
+				114E8B22EC4955B51E46616F892B0D75 /* KPGrowSegue-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KPGrowSegue";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9757D95DC34EC46F2454C0B1353FED4 /* KPGrowSegue */ = {
+			isa = PBXGroup;
+			children = (
+				F075DFA4840E02C97BC4922E65B07EF9 /* Classes */,
+			);
+			path = KPGrowSegue;
+			sourceTree = "<group>";
+		};
+		F075DFA4840E02C97BC4922E65B07EF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6191C6D51E7FF40A00EE1E14 /* KPGrowSegue.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F16127E2D3BAC845B8125464D64FD1E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBBF9127BBE075BA7AD34F09306229 /* Pods-KPGrowSegue_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F99DB1B3AA56F122112F79C75E9CBE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22FADDE0D09DAE616C4425DAFB271C0 /* KPGrowSegue.framework */,
+				B64AB254EC8447985F3A2C8F61DC5EF3 /* Pods_KPGrowSegue_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		100092DE0DA716471F8D2EA0D442BE8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED748521F1C2509D9F75FB117896E081 /* KPGrowSegue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDE2D8789D38E57972D0DA8EC5C7412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BACEB33CF5392921757A9B7499A79A /* Pods-KPGrowSegue_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24757051A910DAB2B58FFAC07245E92D /* KPGrowSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37448BFB219A0FC2E07E5FA98D78DD6D /* Build configuration list for PBXNativeTarget "KPGrowSegue" */;
+			buildPhases = (
+				FC7C5B023FBEF250004B17F6B83EDA75 /* Sources */,
+				E0161BF3194CE6BAC21DB53A7F41BB81 /* Frameworks */,
+				100092DE0DA716471F8D2EA0D442BE8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPGrowSegue;
+			productName = KPGrowSegue;
+			productReference = B22FADDE0D09DAE616C4425DAFB271C0 /* KPGrowSegue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		779CD78997E13E208E1AA9B4CC446AE4 /* Pods-KPGrowSegue_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2725594AE4FAED3BEF738F6FBB2902 /* Build configuration list for PBXNativeTarget "Pods-KPGrowSegue_Tests" */;
+			buildPhases = (
+				FC5E76825A7D8E9736080A9267061031 /* Sources */,
+				ACC1CFC514878AB0C1D9C9B50EA8CD28 /* Frameworks */,
+				3FDE2D8789D38E57972D0DA8EC5C7412 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA4A62FA7969F2CDA4BF903B4C6C2E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-KPGrowSegue_Tests";
+			productName = "Pods-KPGrowSegue_Tests";
+			productReference = B64AB254EC8447985F3A2C8F61DC5EF3 /* Pods_KPGrowSegue_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F99DB1B3AA56F122112F79C75E9CBE69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24757051A910DAB2B58FFAC07245E92D /* KPGrowSegue */,
+				779CD78997E13E208E1AA9B4CC446AE4 /* Pods-KPGrowSegue_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5E76825A7D8E9736080A9267061031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FCC4F910EC76B29CFC696A9546F6F3 /* Pods-KPGrowSegue_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7C5B023FBEF250004B17F6B83EDA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6191C6D61E7FF40A00EE1E14 /* KPGrowSegue.swift in Sources */,
+				CB85CDABD25024F09526AED6D52EEF34 /* KPGrowSegue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA4A62FA7969F2CDA4BF903B4C6C2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KPGrowSegue;
+			target = 24757051A910DAB2B58FFAC07245E92D /* KPGrowSegue */;
+			targetProxy = C89CAC444665DCDBC8FF8B17BA484F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10955B56604ACDFC96D96B4B2A9BDC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCA4916A1B7DC65B30810800EC0D237 /* KPGrowSegue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KPGrowSegue/KPGrowSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPGrowSegue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPGrowSegue/KPGrowSegue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KPGrowSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84C78C40F3BECD2F1417A336DD009EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6AA45DF29B29EC9B7C9CEE08012ABA /* Pods-KPGrowSegue_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPGrowSegue_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPGrowSegue_Tests/Pods-KPGrowSegue_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPGrowSegue_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B8D86D982BE22E18D035BF6C2A079DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C7D33BBE7C669B806ED59F826D0689 /* Pods-KPGrowSegue_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KPGrowSegue_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KPGrowSegue_Tests/Pods-KPGrowSegue_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KPGrowSegue_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A38FED15796BA3A1447B8AAC95ABBC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCA4916A1B7DC65B30810800EC0D237 /* KPGrowSegue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KPGrowSegue/KPGrowSegue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KPGrowSegue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KPGrowSegue/KPGrowSegue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KPGrowSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37448BFB219A0FC2E07E5FA98D78DD6D /* Build configuration list for PBXNativeTarget "KPGrowSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10955B56604ACDFC96D96B4B2A9BDC30 /* Debug */,
+				A38FED15796BA3A1447B8AAC95ABBC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2725594AE4FAED3BEF738F6FBB2902 /* Build configuration list for PBXNativeTarget "Pods-KPGrowSegue_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8D86D982BE22E18D035BF6C2A079DC /* Debug */,
+				84C78C40F3BECD2F1417A336DD009EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
