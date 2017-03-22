@@ -23,12 +23,22 @@ class Radio: UIButton {
                 attributedForSelectedTitle.addAttributes([NSFontAttributeName : self.titleLabel?.font], range: NSMakeRange(1, (self.titleLabel?.text?.characters.count)!))
                 self.setAttributedTitle(attributedForNormalTitle, for: .normal)
                 self.setAttributedTitle(attributedForSelectedTitle, for: .selected)
+                for radio in self.radioGroup.radioButtons {
+                    radio.addTarget(self, action: #selector(Radio.makeSelection(sender:)), for: .touchUpInside)
+                }
             }
             
         }
+        
+        
     }
     
-    
+    func makeSelection(sender:UIButton) {
+        for radio in self.radioGroup.radioButtons {
+            radio.isSelected = false
+        }
+        sender.isSelected = true
+    }
     /*
      // Only override draw() if you perform custom drawing.
      // An empty implementation adversely affects performance during animation.
@@ -44,16 +54,9 @@ class RadioGroup : NSObject {
     @IBOutlet weak var selectedButton:Radio?
     override func awakeFromNib() {
         super.awakeFromNib()
-//        for radio in self.radioButtons {
-//            radio.addTarget(self, action: #selector(RadioGroup.makeSelection(sender:)), for: .touchUpInside)
-//        }
-//        self.selectedButton?.isSelected = true
+        //
+        //        self.selectedButton?.isSelected = true
     }
     
-    func makeSelection(sender:UIButton) {
-        for radio in self.radioButtons {
-            radio.isSelected = false
-        }
-        selectedButton = sender as! Radio
-    }
+    
 }
